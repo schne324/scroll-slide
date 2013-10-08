@@ -1,0 +1,118 @@
+#slider{
+	font-family: 'Plaster', cursive;
+    width: 100%;
+    background-color: #FF6D3B;
+    height: 100%;
+    position: fixed;
+    color:#0D6868;
+    text-align: center;
+}
+#stuff {
+	width:100%;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+#stuff ul {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+#stuff a {
+	font-family: 'Poiret One', cursive;
+	display: block;
+	list-style-type: none;
+	width: 100%;
+	height:155px;
+	text-align: center;
+	background-color: #0D6868;
+	color: #fff;
+	padding: 10px;
+	margin: 0px;
+	font-size: 36px;
+}
+
+#stuff a:hover {
+	background-color: #fff;
+	color: #0D6868;
+}
+#slider h1 {
+    font-size: 100px;
+    margin-top: 0;
+}
+#overflow{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #FFF;
+}
+.parachute {
+	font-family: 'Poiret One', cursive;
+	text-align: center;
+	margin: 0 auto;
+	width: 70%;
+	padding-top: 50px;
+}
+
+
+/*DOWN ARROW*/
+
+#scroller:after {
+    width: 0;
+    height: 0;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 60px solid #fff;
+    content: "";
+    display: block;
+    background-color: #FF6D3B;
+}
+#scroller {
+	cursor: pointer;
+	-moz-transition: background-color .7s, border .7s, width .7s;
+    -webkit-transition: background-color .7s, border .7s, width .7s;
+    -o-transition: background-color .7s, border .7s, width .7s;
+    transition: background-color .7s, border .7s, width .7s;
+    margin: 0 auto;
+    background-color: #fff;
+    width:500px;
+}
+
+#scroller:hover {
+	background-color: #FF6D3B;
+	border: 5px solid #fff;
+}
+#scroller a {
+	text-decoration: none;
+	font-size: 40px;
+	color: #0D6868;
+	font-weight: bold;
+}
+#scroller span {
+	display: block;
+	margin-top: 5px;
+	font-size: 20px;
+}
+
+/*NAVIGATION*/
+#navigator {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#navigator li {
+
+	width: 200px;
+	list-style-type: none;
+	display: inline;
+}
+
+#navigator li a {
+	display: inline-block;
+	width: 150px;
+	background-color: #FF6D3B;
+	color: #0D6868;
+	padding: 10px;
+	margin: 10px;
+}
